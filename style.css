@@ -1,17 +1,17 @@
 @font-face {
     font-family: "popins";
-    src: url("Poppins\ \(1\)/Poppins-medium.ttf") format("truetype");
-
+    src: url("Poppins (1)/Poppins-medium.ttf") format("truetype");
+    
 }
 
 @font-face {
     font-family: "pop-extralight";
-    src: url("Poppins\ \(1\)/Poppins-extralight.ttf") format("truetype");
+    src: url("Poppins (1)/Poppins-extralight.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "pop-bold";
-    src: url("Poppins\ \(1\)/Poppins-bold.ttf") format("truetype");
+    src: url("Poppins (1)/Poppins-bold.ttf") format("truetype");
 }
 
 * {
