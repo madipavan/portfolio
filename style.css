@@ -42,6 +42,10 @@ p{
     height: 100px;
     width: 100vw;
 }
+.ri-menu-fold-line
+{
+    display: none;
+}
 
 .nav a {
     text-decoration: none;
@@ -78,7 +82,7 @@ p{
 #image {
     width: 20%;
     height: 38vh;
-    background-image: url(./image/albert-dera-ILip77SbmOE-unsplash.jpg);
+    background-image: url(/Snapchat-683212194.jpg);
     background-size: cover;
     border-radius: 50%;
 }
@@ -167,11 +171,12 @@ p{
 {
     width: 25%;
     height: 50vh;
-    background-image: url(./image/face2.jpg);
+    background-image: url(/2.jpg);
     background-size: cover;
     border-radius: 2rem;
     margin-left: 100px;
     background-position: center;
+    
 }
 
  .box
