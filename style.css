@@ -142,8 +142,17 @@ p{
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
+   
 
 }
+.icon i {
+    cursor: pointer;
+}
+.icon a 
+    {
+        text-decoration: none;
+        color: black;
+    }
 #page2
 {
     width: 100%;
@@ -460,15 +469,21 @@ p{
 {
     
     height: 5vh;
-    width: 30%;
+    width: 100%;
     margin-left: 1.6rem;
     display: flex;
     align-items: center;
     gap: 5px;
+    
 }
 .email i{
     font-size: 20px;
     
+}
+.linkdin a 
+{
+    display: flex;
+    gap: 10px;
 }
 .nav-down
 {
@@ -492,5 +507,17 @@ p{
     border-bottom: 1px solid gray;
     color: gray;
 }
+.linkdin a 
+    {
+        text-decoration: none;
+        color: black;
+    }
+    .email a 
+    {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        gap: 10px;
+    }
 
 

@@ -192,7 +192,15 @@
         justify-content: center;
         align-items: center;
         margin-top: 1rem;
-    
+        
+    }
+    .icon i {
+        cursor: pointer;
+    }
+    .icon a 
+    {
+        text-decoration: none;
+        color: black;
     }
      
     #page2
@@ -561,6 +569,20 @@
     {
         border-bottom: 1px solid gray;
         color: gray;
+    }
+    .linkdin a 
+    {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        gap: 10px;
+    }
+    .email a 
+    {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        gap: 10px;
     }
 
 }
