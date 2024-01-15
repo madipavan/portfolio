@@ -127,7 +127,7 @@
     #image {
         width: 50%;
         height: 38vh;
-        background-image: url(/Snapchat-683212194.jpg);
+        background-image: url(Snapchat-683212194.jpg);
         background-size: cover;
         border-radius: 50%;
         background-position: center;
@@ -222,7 +222,7 @@
     {
         width: 50%;
         height: 25vh;
-        background-image: url(/2.jpg);
+        background-image: url(2.jpg);
         background-size: cover;
         border-radius: 2rem;
         margin-left: 150px;
