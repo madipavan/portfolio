@@ -66,30 +66,34 @@
         position: absolute;
         margin-top: 20px;
         margin-left: 30px;
-        display: none;
+        display: flex;
         flex-direction: column;
         align-items: center;
         font-size: 25px;
-        transform: translate(200px,120px);
+        transform: translate(200px,40px);
         padding-top: 1rem;
         padding-left: 1.5rem;
-        
         transition: .5s ease-in-out;
        
+        overflow: hidden;
    
     }
     .innav-open
     {
-        height: 25vh;
+        height: 31vh;
         width: 50%;
+        transform: translate(200px,150px);
         display: flex;
-        transition:  1.5s ease-in-out;
+        transition:  0.5s ease-in-out;
+        background-color: rgb(255, 255, 255);
        
     }
-    .nav a {
+    .innav a {
         text-decoration: none;
         margin-right: 2.5rem;
         color: black;
+        position: relative;
+        padding-top: 1rem;
         
 
     }
@@ -127,7 +131,7 @@
     #image {
         width: 50%;
         height: 38vh;
-        background-image: url(/Snapchat-683212194.jpg);
+        background-image: url(Snapchat-683212194.jpg);
         background-size: cover;
         border-radius: 50%;
         background-position: center;
@@ -222,7 +226,7 @@
     {
         width: 50%;
         height: 25vh;
-        background-image: url(/2.jpg);
+        background-image: url(2.jpg);
         background-size: cover;
         border-radius: 2rem;
         margin-left: 150px;
